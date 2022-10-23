@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #474747;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    margin: 0 0 20px 0;
+    font-size: 1.4rem;
+    line-height: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.title p{
+    font-size: 14.5px;
+}
+
+/*===================================================================================
+                                nav top part start
+===================================================================================*/
+#nav_top {
+    background: #8EC837;
+    color: #fff;
+    padding: 20px 0;
+}
+#nav_top .contact_part{
+    width: 50%;
+    float: left;
+}
+#nav_top .contact_part p{
+    display: inline-block;
+    margin-right: 20px;
+}
+#nav_top .icon_part{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+#nav_top .contact_part p i {
+    margin-right: 5px;
+    color: #000;
+}
+#nav_top .icon_part ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav_top .icon_part ul li a {
+    color: #fff;
+}
+/*===================================================================================
+                                nav part end
+===================================================================================*/
+
+/*===================================================================================
+                                nav bottom part start
+===================================================================================*/
+#nav_bottom .nav_bottom_content {
+    width: 20%;
+    float: left;
+    padding: 30px 0;
+    margin-left: 88px;
+}
+#nav_bottom .nav_bottom_content:first-child {
+    margin-left: 0;
+}
+#nav_bottom .nav_bottom_content .Icon {
+    float: left;
+    width: 26%;
+    margin-right: 0px;
+}
+
+#nav_bottom .nav_bottom_content .text {
+    width: 70%;
+    float: left;
+}
+#nav_bottom .nav_bottom_content .text strong{
+    display: block;
+}
+
+#nav_bottom .nav_bottom_content .Icon i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(0, 0, 0, .03);
+    border-radius: 50%;
+    margin-top: 3px;
+    color: #8EC837;
+    transition: .4s;
+    font-size: 18px;
+}
+#nav_bottom .nav_bottom_content .text a {
+    color: #8EC837;
+}
+
+#nav_bottom .nav_bottom_content:hover .Icon i {
+    background: #8EC837;
+    color: #fff;
+    cursor: pointer;
+}
+/*===================================================================================
+                                nav bottom part end
+===================================================================================*/
+
+/*===================================================================================
+                                banner part start
+===================================================================================*/
+#banner {
+    background: url(../Images/background-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 885px;
+}
+#banner .overlay {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 166px;
+}
+#banner .overlay .container header {
+    background: #8EC837;
+    margin-top: 60px;
+    padding: 30px 30px;
+}
+#banner .overlay .container header .header_left{
+    float: left;
+    width: 50%;
+}
+#banner .overlay .container header .header_right{
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+}
+#banner .overlay .container header h1 a{
+    color: #fff;
+    font-size: 32px;
+    font-variant: small-caps;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+}
+#banner .overlay .container header .header_right ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+#banner .overlay .container header .header_right ul {
+    text-align: right;
+    margin-top: 4px;
+}
+
+#banner .overlay .container header .header_right ul li a {
+    color: #fff;
+    transition: .4s;
+}
+
+#banner .overlay .container header .header_right ul li a i {
+    font-size: 10px;
+    margin-right: 3px;
+    transition: .5s;
+}
+
+#banner .overlay .container header .header_right ul li a:hover {
+    color: #000;
+    cursor: pointer;
+}
+#banner .overlay_text {
+    margin-top: 300px;
+    color: #fff;
+    width: 52%;
+}
+
+#banner .overlay_text h1 {
+    font-size: 70px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#banner .overlay_text p {
+    margin: 20px 0 60px 0;
+}
+
+#banner .overlay_text a {
+    border:  1px solid #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    background: transparent;
+    color: #fff;
+    transition: .4s;
+}
+#banner .overlay_text a:hover {
+    background:  #8EC837;
+    border-color: #8EC837;
+}
+
+/*===================================================================================
+                                banner part end
+===================================================================================*/
+
+/*===================================================================================
+                                banner bottom part start
+===================================================================================*/
+
+#banner_bottom .item_part {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+#banner_bottom .item_part .img_part img {
+    width: 100%;
+    height: 100%;
+}
+
+section#banner_bottom {
+    margin: -70px 0 70px 0;
+}
+
+#banner_bottom .item_part:nth-child(3) {
+    margin-right: 0;
+}
+#banner_bottom .item_part .text_part p {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+    background: #8EC837;
+}
+
+#banner_bottom .item_part .img_part {
+    margin-bottom: -8px;
+    position: relative;
+}
+
+#banner_bottom .item_part .text_part p a {
+    color: #fff;
+    background: transparent;
+}
+
+#banner_bottom .item_part .img_part .overlay {
+    height: 97%;
+    background: rgba(142,200,55,.3);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .4s;
+}
+#banner_bottom .item_part .img_part .overlay i {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#banner_bottom .item_part .img_part:hover .overlay{
+    width: 100%;
+    height: 97%;
+    opacity: 1;
+    cursor: pointer;
+}
+/*===================================================================================
+                                banner bottom part end
+===================================================================================*/
+
+/*===================================================================================
+                                Lorem_Mauris part start
+===================================================================================*/
+
+#Lorem_Mauris {
+    background: url(../Images/background-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Lorem_Mauris .Lorem_text {
+    width: 50%;
+    float: left;
+}
+#Lorem_Mauris .Lorem_img {
+    width: 37%;
+    float: left;
+    margin-left: 7%;
+    position: relative;
+}
+#Lorem_Mauris .overlay {
+    background: rgba(0, 0, 0, .5);
+    padding: 80px 0;
+    color: #FFF;
+}
+#Lorem_Mauris .Lorem_text .text_top p {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+#Lorem_Mauris .overlay .text_bottom ul li a i {
+    color: #8EC837;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+#Lorem_Mauris .overlay .text_bottom ul li .list_icon {
+    float: left;
+    width: 11%;
+}
+
+#Lorem_Mauris .overlay .text_bottom ul li .list_para {
+    float: left;
+    width: 89%;
+}
+#Lorem_Mauris .overlay .text_bottom ul li {
+    margin-bottom: 30px;
+}
+#Lorem_Mauris .overlay .text_bottom ul li .list_para h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#Lorem_Mauris .overlay .text_bottom ul li .list_para p {
+    line-height: 22px;
+}
+#Lorem_Mauris .overlay .text_bottom ul li:hover .list_icon a i{
+    background: #8EC837;
+    color:#FFF;
+}
+#Lorem_Mauris .Lorem_img img {
+    width: 100%;
+}
+#Lorem_Mauris .Lorem_img .overlay_1 {
+    width: 100%;
+    height: 97.50%;
+    background: rgba(142,200,55,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+#Lorem_Mauris .Lorem_img .overlay_1 i {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#Lorem_Mauris .Lorem_img:hover .overlay_1 {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+/*===================================================================================
+                                Lorem_Mauris part end
+===================================================================================*/
+
+/*===================================================================================
+                                suscipit valit part start
+===================================================================================*/
+#suscipit_velit{
+    padding: 80px 0 10px 0; 
+}
+.title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.title p{
+    font-size: 14.5px;
+}
+section#suscipit_velit ul li {
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.05);
+    margin: 0 72px 72px 0;
+}
+section#suscipit_velit ul li:nth-child(3){
+    margin-right: 0;
+}
+section#suscipit_velit ul li:nth-child(6){
+    margin-right: 0;
+}
+section#suscipit_velit ul li a i {
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: #8EC837;
+}
+
+
+section#suscipit_velit ul li footer a {
+    color: #8EC837;
+    text-transform: capitalize;
+}
+
+a {}
+
+section#suscipit_velit ul li footer {
+    margin-top: 10px;
+}
+section#suscipit_velit ul li:hover {
+    background: rgba(0, 0, 0, 0.02);
+    color: inherit;
+}
+/*===================================================================================
+                                suscipit valit part end
+===================================================================================*/
+
+/*===================================================================================
+                                Diam Libero part start
+===================================================================================*/
+#Diam_Libero{
+    color:#474747;
+    background: #F4F4F4;
+    padding-top: 70px;
+}
+#Diam_Libero .title {
+    padding-bottom: 80px;
+}
+#Diam_Libero .center_btnspaces {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#Diam_Libero .center_btnspaces a {
+    color: #8EC837;
+}
+.Diam_Libero_img_part .img_part {
+    width: 30%;
+    float: left;
+    margin: 0 66px 66px 0;
+    position: relative;
+}
+.Diam_Libero_img_part .img_part img {
+    width: 100%;
+}
+
+.Diam_Libero_img_part .img_part:nth-child(3) {
+    margin-right: 0;
+}
+
+.Diam_Libero_img_part .img_part:nth-child(6) {
+    margin-right: 0;
+}
+.Diam_Libero_img_part .img_part .overlay_2 {
+    width: 100%;
+    height: 97.7%;
+    background: rgba(142,200,55,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.Diam_Libero_img_part .img_part .overlay_2 i {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.Diam_Libero_img_part .img_part:hover .overlay_2 {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+/*===================================================================================
+                                Diam Libero part end
+===================================================================================*/
+
+/*===================================================================================
+                                J. Doc part start
+===================================================================================*/
+#J_DOC_bayo {
+    background: url(../Images/background-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#J_DOC_bayo .overlay {
+    padding: 80px;
+    background: rgba(0, 0, 0, .5);
+}
+#J_DOC_bayo .overlay .bayo {
+    background: #FFF;
+    margin: 0 300px;
+    padding: 50px 0;
+}
+
+#J_DOC_bayo .overlay .bayo .img_part {
+    float: left;
+    width: 26%;
+}
+
+#J_DOC_bayo .overlay .bayo .text_part {
+    float: left;
+    width: 67%;
+}
+
+#J_DOC_bayo .overlay .bayo .img_part img {
+    border-radius: 50%;
+    margin: -20px 0 0 40px;
+}
+
+#J_DOC_bayo .overlay .bayo .text_part .title_part h2 {
+    margin-bottom: -8px;
+    font-size: 1.6rem;
+}
+
+#J_DOC_bayo .overlay .bayo .text_part .pragraph_part {
+    margin-top: 30px;
+}
+/*===================================================================================
+                                J. Doc part end
+===================================================================================*/
+
+/*===================================================================================
+                                Facilisi part start
+===================================================================================*/
+#Facilisi{
+    padding: 80px 0;
+    color: #474747;
+    background: #f4f4f4;
+}
+#Facilisi .Facilisi_content {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+#Facilisi .Facilisi_content .img_part img {
+    width: 100%;
+}
+
+#Facilisi .Facilisi_content:nth-child(3) {
+    margin-right: 0;
+}
+#Facilisi .Facilisi_content .text_part {
+    margin-top: 25px;
+}
+
+#Facilisi .Facilisi_content .text_part h4 {
+    margin-bottom: 8px;
+}
+
+#Facilisi .Facilisi_content .text_part i {
+    font-size: 10px;
+    margin-right: 8px;
+}
+#Facilisi .Facilisi_content .text_part .admin  {
+    color: #8EC837;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-weight: 0;
+}
+#Facilisi .Facilisi_content .text_part time {
+    font-size: 12px;
+    border-left: 1px solid #7777;
+    padding-left: 10px;
+}
+
+#Facilisi .Facilisi_content .text_part p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#Facilisi .Facilisi_content .text_part footer a {
+    text-transform: capitalize;
+    color: #8EC837;
+}
+#Facilisi .Facilisi_content .img_part .overlay_3 {
+    width: 100%;
+    height: 97.7%;
+    background: rgba(142,200,55,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+#Facilisi .Facilisi_content .img_part {
+    position: relative;
+}
+
+#Facilisi .Facilisi_content .img_part .overlay_3 i {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#Facilisi .Facilisi_content .img_part:hover .overlay_3 {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+/*===================================================================================
+                                Facilisi part end
+===================================================================================*/
+
+/*===================================================================================
+                                Footer part start
+===================================================================================*/
+#footer{
+    background: url(../Images/background-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#footer .overlay{
+    padding: 80px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.footer_top .top_left {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+.footer_top .top_left h5 {
+    color: #fff;
+}
+
+.footer_top .top_left p {
+    color: #fff;
+    text-align: justify;
+    margin: 40px 0;
+}
+
+.footer_top .top_left ul li {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.footer_top .top_left ul {
+    text-align: center;
+}
+
+.footer_top .top_left ul li a {
+    color: #fff;
+    background: #343434;
+    /* border: 1px solid #777; */
+    padding: 8px 9px;
+    margin-right: 6px;
+    font-size: 18px;
+}
+.footer_top .top_left ul li:nth-child(1) a{
+    transition: .4s;
+}
+.footer_top .top_left ul li:nth-child(1) a:hover {
+    background: #3B5998;
+}
+.footer_top .top_left ul li:nth-child(2) a{
+    transition: .4s;
+}
+.footer_top .top_left ul li:nth-child(2) a:hover {
+    background: #DB4A39;
+}
+.footer_top .top_left ul li:nth-child(3) a{
+    transition: .4s;
+}
+.footer_top .top_left ul li:nth-child(3) a:hover {
+    background: #0E76A8;
+}
+.footer_top .top_left ul li:nth-child(4) a{
+    transition: .4s;
+}
+.footer_top .top_left ul li:nth-child(4) a:hover {
+    background: #00ACEE;
+}
+.footer_top .top_left ul li:nth-child(5) a{
+    transition: .4s;
+}
+.footer_top .top_left ul li:nth-child(5) a:hover {
+    background: #4E658E;
+}
+
+.footer_top .Nascetur {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+.footer_top .Nascetur h5{
+    color:#FFF;
+}
+.footer_top .Nascetur ul {
+    margin-top: 28px;
+}
+
+.footer_top .Nascetur ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.footer_top .Nascetur ul li:nth-child(5) {
+    border: 0;
+}
+
+.footer_top .Nascetur ul li a {
+    color: #8EC837;
+}
+
+.footer_top .Vestibulum {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+.footer_top .Vestibulum h5{
+    color:#FFF;
+}
+.footer_top .Vestibulum p{
+    color:#FFF;
+    margin-top: 38px;
+    margin-bottom: 15px;
+}
+.footer_top .Vestibulum  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #FFF;
+    background: rgba(255,255,255,.2);
+    border: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.footer_top .Vestibulum button {
+    background: #8EC837;
+    padding: 10px 17px;
+    font-size: 20px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    border-color: #8ec837;
+    transition: .4s;
+}
+
+.footer_top .Vestibulum button:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.footer_top .top_right {
+    width: 22%;
+    float: left;
+}
+.footer_top .top_right h5 {
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+.footer_top .top_right .top_right_img ul li {
+    display: inline-block;
+    width: 85px;
+    margin: 0 12px 12px 0;
+}
+
+.footer_top .top_right .top_right_img ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+.footer_top .top_right .top_right_img ul li img {
+    width: 100%;
+}
+.footer_top .top_right .top_right_img ul li:nth-child(6) {
+    margin-right: 0;
+}
+.footer_top .top_right .top_right_img ul li:nth-child(9) {
+    margin-right: 0;
+}
+
+.footer_top .top_right .top_right_img ul li .overlay_4 {
+    width: 100%;
+    height: 97.7%;
+    background: rgba(142,200,55,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.footer_top .top_right .top_right_img ul li {
+    position: relative;
+}
+
+.footer_top .top_right .top_right_img ul li .overlay_4 i {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.footer_top .top_right .top_right_img ul li:hover .overlay_4 {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+.footer_bottom_manu ul li {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.footer_bottom_manu ul {
+    text-align: center;
+}
+
+.footer_bottom_manu ul li a {
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 9px;
+    transition: .5s;
+}
+
+.footer_bottom_manu {
+    padding: 40px 0;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    margin-top: 30px;
+}
+
+.footer_bottom_manu ul li a:hover {
+    color: #8EC837;
+}
+.copy_right_part .left_p {
+    width: 50%;
+    float: left;
+    color: #a8a8a8;
+}
+
+.copy_right_part .right_p {
+    width: 50%;
+    float: left;
+    color: #a8a8a8;
+    text-align: right;
+}
+
+.copy_right_part p a {
+    color: #a8a8a8;
+}
+.copy_right_part {
+    margin-top: 50px;
+}
+/*===================================================================================
+                                Footer part end
+===================================================================================*/
